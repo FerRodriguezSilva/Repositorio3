@@ -1,0 +1,75 @@
+body{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.encabezado{
+    display: flex;
+    border: 2px solid white;
+    color: gold;
+}
+.flex-item-1 {
+    flex-basis: 150px;
+    flex-grow: 1;
+ }
+ .flex-item-2 {
+    flex-basis: 150px;
+    flex-grow: 2;
+ }
+ .flex-item-3 {
+    flex-basis: 150px;
+    flex-grow: 1;
+ }
+ .notas{
+   display: flex;
+    color: white;
+ }
+ .logosLigas{
+    display: flex;
+ }
+ .Img-Fond1{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 140px;
+}
+.Img-Fond2{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 120px;
+}
+table thead{
+   background-color: blueviolet;
+   
+}
+table tbody{
+   background-color: goldenrod;
+}
+table th,table td{
+   border: 1px solid gold;
+}
+.tablasColor{
+   color: white;
+}
+.LigasColor{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,10,39,1) 35%, rgba(0,212,255,1) 100%);
+color: gold;
+}
+.coloChamp{
+   background-color: blue;
+}
+.coloEur{
+   background-color: orange;
+}
+.coloCon{
+   background-color: green;
+}
+.notas2{
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: wrap-reverse;
+   color: white;
+}
