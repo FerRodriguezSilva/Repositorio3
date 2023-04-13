@@ -1,11 +1,14 @@
 body{
-   background: rgb(2,0,36);
-   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+ /*  background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+   background-color: #102443;
 }
 .encabezado{
     display: flex;
     border: 2px solid white;
-    color: gold;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,10,39,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffe517;
 }
 .flex-item-1 {
     flex-basis: 150px;
@@ -19,6 +22,12 @@ body{
     flex-basis: 150px;
     flex-grow: 1;
  }
+ .flex-item4{
+   flex-basis: 100px;
+   flex-grow: 1;
+   border: gold;
+ }
+
  .notas{
    display: flex;
     color: white;
@@ -32,6 +41,8 @@ body{
     background-repeat: no-repeat;
     height: 120px;
     width: 140px;
+    flex-basis: 50px;
+    flex-grow: 2;
 }
 .Img-Fond2{
     
@@ -39,9 +50,17 @@ body{
     background-repeat: no-repeat;
     height: 130px;
     width: 120px;
+    flex-basis: 50px;
+    flex-grow: 1.5;
+}
+.Img-Fond3{
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 130px;
+   width: 120px;
 }
 table thead{
-   background-color: blueviolet;
+   background-color: #312d50;
    
 }
 table tbody{
@@ -59,17 +78,25 @@ table th,table td{
 color: gold;
 }
 .coloChamp{
-   background-color: blue;
+   display: flex;
+   background-color: #00466d;
 }
 .coloEur{
-   background-color: orange;
+   display: flex;
+   background-color: #ff7908;
 }
 .coloCon{
-   background-color: green;
+   display: flex;
+   background-color: #148e5e;
 }
 .notas2{
    display: flex;
    flex-direction: row-reverse;
    flex-wrap: wrap-reverse;
    color: white;
+}
+.titulos{
+   display: flex;
+   background-color: #645892;
+   border: 1px solid gold;
 }
